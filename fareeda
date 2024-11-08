@@ -1,0 +1,12 @@
+git init
+git remote add origin <your-repository-url>
+git add .
+git commit -m "Initial commit" 
+git push -u origin master/main
+
+
+git pull origin master --rebase
+git add <conflicting-file>
+git rebase --continue
+git push origin master
+
